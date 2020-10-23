@@ -1,0 +1,8 @@
+*.o
+*.data
+algo
+genere
+a.out
+exe
+tri_bulle
+tri_fusion

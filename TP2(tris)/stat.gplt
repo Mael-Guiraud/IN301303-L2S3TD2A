@@ -1,0 +1,13 @@
+set term pdf
+set output "stat.pdf"
+
+set title "Comparaisons de tris"
+set xlabel "Taille du tableau"
+set xrange [0:]
+set yrange [0:]
+
+set ylabel "Nombre de comparaisons"
+plot "test_tri_bulle.data" using 1:2 with linespoints title "Tri Bulle"
+
+set ylabel "Nombre d'échanges"
+plot "test_tri_bulle.data" using 1:3 with linespoints title "Bulle Base"
